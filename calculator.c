@@ -26,7 +26,7 @@ int main()
     else if (opt == '*')  
     {  
         res = n1 * n2; 
-        printf (" Multiplication of %d and %d is: %f", n1, n2, res);  
+        printf (" multiple of %d and %d is: %f", n1, n2, res);  
     }  
       
     else if (opt == '/')  
