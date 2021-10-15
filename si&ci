@@ -2,7 +2,7 @@
 #include<math.h>
 void main()
 {
-float p,r,t,a,si,ci;
+float p,r,t,a,simpleinterest,compoundinterest;
 printf("Enter Principle=");
 scanf("%f",p);
 printf("enter time=");
@@ -10,9 +10,9 @@ scanf("%f",t);
 printf("Enter Rate=");
 scanf("%f",&r);
 
-si=(p*r*t)/100;
+simpleinterest=(p*r*t)/100;
 printf("simple Interest=%f",si);
 a = P*(pow((1+r/100)),t);
-ci = a-p;
+compoundinterest = a-p;
 printf("\ncompound interest=%f",ci);
 }
